@@ -3,7 +3,7 @@ module.exports = function(RED) {
         RED.nodes.createNode(this,config);
         var node = this;
         node.on('input', function(msg) {
-            msg.payload = "TAIJI HAGINO";
+            msg.payload = "Judith Geimer";
             node.send(msg);
         });
     }
